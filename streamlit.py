@@ -1,7 +1,7 @@
 # Nomor 4
 # Arieldhipta Tarliman -2702234636
 import streamlit as st
-import pickle
+import joblib
 import pandas as pd
 from preprocessor import HotelPreprocessor
 
