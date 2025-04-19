@@ -6,8 +6,7 @@ import pandas as pd
 from preprocessor import HotelPreprocessor
 
 # === 1. Load model and selected features ===
-with open('hotel_booking_rf_joblib.pkl', 'rb') as f:
-    data = pickle.load(f)
+data = joblib.load('hotel_booking_rf_joblib.pkl')
 model = data['model']
 selected_features = data['features']
 
